@@ -60,7 +60,7 @@ The script will automatically open your default web browser, prompting you to gr
 
 5. **Retrieve Authorization Code:**
 
-After granting consent, the eBay website will redirect you to a specified redirect URI, and the authorization code will be visible in the URL.
+After granting consent, the eBay website will redirect you to a specified redirect URI.
 
 6. **Retrieve Access and Refresh Tokens:**
 
