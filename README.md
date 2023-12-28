@@ -71,7 +71,6 @@ Copy the entire URL in your browser and paste it into the script when prompted i
 If the token retrieval is successful, the script will output the obtained access token and refresh token. These tokens are required for authenticating your application when making requests to the eBay API.
 
 ## Important Notes
-- The script provides a refresh token for extended access.
 - Keep the access token and refresh token secure. These tokens are sensitive information that grants access to your eBay account. Do not share them publicly.
 - Once you close the script, all input values and output, including the access token and refresh token, are deleted from memory. It is important to note that these values are not persisted between script runs.
 
