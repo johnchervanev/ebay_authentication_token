@@ -47,7 +47,7 @@ Review Scopes:
 
    ```bash
    python -m venv venv
-   ````
+   ```
 Activate the Virtual Environment:
 
 On Windows:
