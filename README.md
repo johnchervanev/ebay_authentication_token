@@ -25,7 +25,7 @@ The script automates the eBay OAuth consent and token retrieval, making it conve
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/ebay_authentication_token.git
+   git clone https://github.com/johnchervanev/ebay_authentication_token
    cd ebay_authentication_token
 Customize the Script:
 
@@ -47,7 +47,7 @@ scopes = (
 Execute the script in your Python environment.
 
 ```bash
-python your_script_name.py
+ebay_authentication_token.py
 ```
 
 When you run the script, it will prompt you in the console to input your eBay client ID, client secret, and redirect URI.
