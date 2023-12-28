@@ -27,6 +27,7 @@ The script automates the eBay OAuth consent and token retrieval, making it conve
    ```bash
    git clone https://github.com/johnchervanev/ebay_authentication_token
    cd ebay_authentication_token
+   ```
 
 2. **Open the script in your preferred Python editor or IDE.**
 
