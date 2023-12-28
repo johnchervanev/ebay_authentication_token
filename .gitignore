@@ -1,0 +1,20 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore generated files
+*.pyo
+*.pyd
+
+# Ignore directories with compiled Python files
+_tenacity/
+
+# Ignore IDE files and directories
+.idea/
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore virtual environment
+venv/
