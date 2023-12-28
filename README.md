@@ -64,7 +64,7 @@ After granting consent, the eBay website will redirect you to a specified redire
 
 6. **Retrieve Access and Refresh Tokens:**
 
-Copy the entire URL in your browser and paste it into the script when prompted in the console. Note that the authorization code is present after the `code=`, the script will extract the necessary part. After you paste the entire url in the console, the script will then exchange the authorization code for an access token and refresh token from the eBay API.
+Copy the entire URL in your browser and paste it into the script when prompted in the console. Note that the authorization code is present after the `code=`, but the script will extract the necessary part. After you paste the entire url in the console, the script will then exchange the authorization code for an access token and refresh token from the eBay API.
 
 7. **Script Output:**
 
