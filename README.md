@@ -42,7 +42,33 @@ scopes = (
     # ... (customize the scopes based on your requirements)
 )
 ```
-3. **Run the Script:**
+
+3. **Create a Virtual Environment:**
+
+```bash
+python -m venv venv
+````
+Activate the Virtual Environment:
+
+On Windows:
+
+```bash
+.\venv\Scripts\activate
+```
+On macOS/Linux:
+
+```bash
+source venv/bin/activate
+```
+4. **Install Dependencies:**
+
+Run the following command to install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+5. **Run the Script:**
 
 Execute the script in your Python environment.
 
@@ -54,19 +80,19 @@ When you run the script, it will prompt you in the console to input your eBay cl
 
 If you don't have an eBay application yet, you can obtain your `client_id`, `client_secret`, and `redirect_uri` by creating an application on the [eBay Developer website](https://developer.ebay.com/my/keys).
 
-4. **Consent Process:**
+6. **Consent Process:**
 
 The script will automatically open your default web browser, prompting you to grant consent on the eBay website. Follow the on-screen instructions to log in to your eBay account and authorize the requested permissions.
 
-5. **Retrieve Authorization Code:**
+7. **Retrieve Authorization Code:**
 
 After granting consent, the eBay website will redirect you to a specified redirect URI.
 
-6. **Retrieve Access and Refresh Tokens:**
+8. **Retrieve Access and Refresh Tokens:**
 
 Copy the entire URL in your browser and paste it into the script when prompted in the console. Note that the authorization code is present after the `code=`, but the script will extract the necessary part. After you paste the entire url in the console, the script will then exchange the authorization code for an access token and refresh token from the eBay API.
 
-7. **Script Output:**
+9. **Script Output:**
 
 If the token retrieval is successful, the script will output the obtained access token and refresh token. These tokens are required for authenticating your application when making requests to the eBay API.
 
