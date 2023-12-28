@@ -22,14 +22,6 @@ The script automates the eBay OAuth consent and token retrieval, making it conve
 
 ## Instructions
 
-1. Open the script in your preferred Python editor or IDE.
-2. Copy and paste the script into your Python environment.
-3. Customize the script by updating the variables at the beginning with your eBay application credentials and desired scopes.
-4. Run the script.
-
-
-## Instructions
-
 1. **Clone the Repository:**
 
    ```bash
