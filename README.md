@@ -27,54 +27,54 @@ The script automates the eBay OAuth consent and token retrieval, making it conve
    ```bash
    git clone https://github.com/johnchervanev/ebay_authentication_token
    cd ebay_authentication_token
-Customize the Script:
 
 2. **Open the script in your preferred Python editor or IDE.**
 
 Review Scopes:
 
-Before running the script, carefully review the specified `scopes` to ensure they align with your eBay application's requirements. The `scopes` variable determines the level of access your application has to eBay APIs. Make sure to include the necessary scopes based on the features your application utilizes. For more information on eBay API scopes, refer to the [eBay API documentation](https://developer.ebay.com/tools/api-scopes).
+   Before running the script, carefully review the specified `scopes` to ensure they align with your eBay application's requirements. The `scopes`       variable determines the level of access your application has to eBay APIs. Make sure to include the necessary scopes based on the features your 
+   application utilizes. For more information on eBay API scopes, refer to the [eBay API documentation](https://developer.ebay.com/tools/api-scopes).
 
-```bash
-scopes = (
-    "https://api.ebay.com/oauth/api_scope "
-    "https://api.ebay.com/oauth/api_scope/sell.marketing.readonly "
-    # ... (customize the scopes based on your requirements)
-)
-```
+   ```bash
+   scopes = (
+   "https://api.ebay.com/oauth/api_scope "
+   "https://api.ebay.com/oauth/api_scope/sell.marketing.readonly "
+   # ... (customize the scopes based on your requirements)
+   )
+   ```
 
 3. **Create a Virtual Environment:**
 
-```bash
-python -m venv venv
-````
+   ```bash
+   python -m venv venv
+   ````
 Activate the Virtual Environment:
 
 On Windows:
 
-```bash
-.\venv\Scripts\activate
-```
+   ```bash
+   .\venv\Scripts\activate
+   ```
 On macOS/Linux:
 
-```bash
-source venv/bin/activate
-```
+   ```bash
+   source venv/bin/activate
+   ```
 4. **Install Dependencies:**
 
 Run the following command to install the required dependencies:
 
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 5. **Run the Script:**
 
 Execute the script in your Python environment.
 
-```bash
-ebay_authentication_token.py
-```
+   ```bash
+   ebay_authentication_token.py
+   ```
 
 When you run the script, it will prompt you in the console to input your eBay client ID, client secret, and redirect URI.
 
