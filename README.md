@@ -22,7 +22,7 @@ The script automates the eBay OAuth consent and token retrieval, making it conve
 
 ## Instructions
 
-1. **Clone the Repository:**
+1. Clone the Repository:
 
    ```bash
    git clone https://github.com/johnchervanev/ebay_authentication_token
