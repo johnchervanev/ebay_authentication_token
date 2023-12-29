@@ -79,23 +79,25 @@ The script automates the eBay OAuth consent and token retrieval, making it conve
     ebay_authentication_token.py
     ```
 
-    When you run the script, it will prompt you in the console to input your eBay client ID, client secret, and redirect URI.
+    When you run the script, it will prompt you in the console to input your eBay client ID, client secret, and redirect URI which is known as the RuName.
 
-    If you don't have an eBay application yet, you can obtain your `client_id`, `client_secret`, and `redirect_uri` which is known as the RuName by creating an application on the [eBay Developer website](https://developer.ebay.com/my/keys).
+    If you don't have an eBay application yet, you can obtain your `client_id` and `client_secret` by creating an application on the [eBay Developer website](https://developer.ebay.com/my/keys).
 
-6. **Consent Process:**
+Create `redirect_uri` or RuName by selecting "Get a Token from eBay via Your Application" and filling out the [form](https://developer.ebay.com/my/auth/?env=production&index=0). This will then be visible under the column header "RuName (eBay Redirect URL name)."
+
+7. **Consent Process:**
 
     The script will automatically open your default web browser, prompting you to grant consent on the eBay website. Follow the on-screen instructions to log in to your eBay account and authorize the requested permissions.
 
-7. **Retrieve Authorization Code:**
+8. **Retrieve Authorization Code:**
 
     After granting consent, the eBay website will redirect you to a specified redirect URI.
 
-8. **Retrieve Access and Refresh Tokens:**
+9. **Retrieve Access and Refresh Tokens:**
 
     Copy the entire URL in your browser and paste it into the script when prompted in the console. Note that the authorization code is present after the `code=`, but the script will extract the necessary part. After you paste the entire URL in the console, the script will then exchange the authorization code for an access token and refresh token from the eBay API.
 
-9. **Script Output:**
+10. **Script Output:**
 
     If the token retrieval is successful, the script will output the obtained access token and refresh token. These tokens are required for authenticating your application when making requests to the eBay API.
 
