@@ -83,7 +83,7 @@ The script automates the eBay OAuth consent and token retrieval, making it conve
 
     If you don't have an eBay application yet, you can obtain your `client_id` and `client_secret` by creating an application on the [eBay Developer website](https://developer.ebay.com/my/keys).
 
-Create `redirect_uri` or RuName by selecting "Get a Token from eBay via Your Application" and filling out the [form](https://developer.ebay.com/my/auth/?env=production&index=0). This will then be visible under the column header "RuName (eBay Redirect URL name)."
+    Create `redirect_uri` or RuName by selecting "Get a Token from eBay via Your Application" and filling out the [form](https://developer.ebay.com/my/auth/?env=production&index=0). This will then be visible under the column header "RuName (eBay Redirect URL name)."
 
 7. **Consent Process:**
 
