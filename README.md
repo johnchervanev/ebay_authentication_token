@@ -14,7 +14,7 @@ After the user grants consent, the script retrieves the authorization code and e
 
 ## Problem
 
-Interacting with the eBay API requires user authentication, and obtaining access tokens manually can be cumbersome. This script simplifies the authentication process for eBay applications.
+Interacting with the eBay API requires user authentication, and obtaining access tokens manually can be cumbersome. For example, the authorization code is encoded. The script handles the decoding process. As a result, this script simplifies the authentication process for eBay applications.
 
 ## Solution
 
