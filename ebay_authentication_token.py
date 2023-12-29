@@ -3,7 +3,7 @@ from base64 import b64encode
 from urllib.parse import urlparse, parse_qs
 import webbrowser
 
-# Prompt the user to enter their eBay production application credentials and redirect URI
+# Prompt the user to enter their eBay production application credentials and redirect URI (known as RuName)
 client_id = input("Enter your eBay client ID: ")
 client_secret = input("Enter your eBay client secret: ")
 redirect_uri = input("Enter your eBay redirect URI: ")
